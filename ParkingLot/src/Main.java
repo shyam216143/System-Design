@@ -15,7 +15,7 @@ import com.parkinglot.services.PaymentServiceImpl;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world! em chestunavu");
+        System.out.println("Hello world!");
         ParkingLot parkingLot = ParkingLot.getInstance();
         ParkingSpotService parkingSpotService = new ParkingSpotServiceImpl();
         ParkingSpot a1 = parkingSpotService.createParkingSpot(ParkingSpotEnum.COMPACT, 0, 20);
